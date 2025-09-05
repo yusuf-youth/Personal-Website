@@ -476,8 +476,9 @@ h5,
 
 .references__list {
     display: flex;
-    align-items: center;
-    column-gap: 10px
+    flex-direction: column;
+    /* align-items: center; */
+    column-gap: 10px;
 }
 
 @media (max-width: 767px) {
@@ -505,18 +506,18 @@ h5,
 .service-card {
     display: flex;
     flex-direction: column;
-    row-gap: 15px
+    row-gap: 15px;
 }
 
 @media (max-width: 1023px) {
     .service-card__image {
-        margin-bottom: 8px
+        margin-bottom: 8px;
     }
 }
 
 @media (max-width: 1023px) {
     .service-card {
-        row-gap: 8px
+        row-gap: 8px;
     }
 }
 
