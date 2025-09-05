@@ -476,8 +476,7 @@ h5,
 
 .references__list {
     display: flex;
-    flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
     column-gap: 10px;
 }
 
