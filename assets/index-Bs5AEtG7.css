@@ -122,7 +122,7 @@ svg * {
 
 @font-face {
     font-family: Inter;
-    src: url(assets/inter-regular-BbQwJZ4a.woff2) format("woff2");
+    src: url(inter-regular-BbQwJZ4a.woff2) format("woff2");
     font-weight: 400;
     font-style: normal;
     font-display: swap
@@ -130,7 +130,7 @@ svg * {
 
 @font-face {
     font-family: Inter;
-    src: url(assets/Inter-medium-C11GAr3A.woff2) format("woff2");
+    src: url(Inter-medium-C11GAr3A.woff2) format("woff2");
     font-weight: 500;
     font-style: normal;
     font-display: swap
@@ -138,7 +138,7 @@ svg * {
 
 @font-face {
     font-family: Inter;
-    src: url(assets/inter-bold-rHWffXx5.woff2) format("woff2");
+    src: url(inter-bold-rHWffXx5.woff2) format("woff2");
     font-weight: 600;
     font-style: normal;
     font-display: swap
