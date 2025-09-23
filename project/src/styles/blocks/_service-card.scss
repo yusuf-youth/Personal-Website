@@ -1,0 +1,15 @@
+.service-card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+
+  &__image {
+    @include tablet {
+      margin-bottom: 8px;
+    }
+  }
+
+  @include tablet {
+    row-gap: 8px;
+  }
+}

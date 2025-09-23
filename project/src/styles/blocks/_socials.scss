@@ -1,0 +1,20 @@
+.socials {
+  &__list {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+
+    @include mobile {
+      column-gap: 10px;
+    }
+  }
+
+  &__link {
+    @include hover-effect;
+  }
+
+  &__image {
+    @include square(19px);
+    filter: invert(1);
+  }
+}

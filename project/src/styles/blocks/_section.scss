@@ -1,0 +1,28 @@
+.section {
+  @extend .container;
+
+  padding-block: var(--section-padding-x);
+
+  &--no-padding {
+    padding-block: 0;
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    margin-bottom: 50px;
+
+    @include mobile {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__description {
+    @include fluid-text(20, 18);
+
+    text-align: center;
+  }
+}

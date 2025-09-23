@@ -1,0 +1,43 @@
+.floating-nav {
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  padding: 7px;
+  border-radius: 100px;
+  translate: -50%;
+  background: rgba(20, 20, 20, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+
+  &__list {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+
+  &__item {
+    transition-duration: var(--transition-duration);
+  }
+
+  &__link {
+    @include center-content;
+
+    padding: 10px;
+    border-radius: 50%;
+
+    &.is-active {
+      background-color: rgba(0, 0, 0, 0.8);
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    @include hover {
+      background-color: rgba(0, 0, 0, 0.8);
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    svg {
+      @include square(23px);
+    }
+  }
+}

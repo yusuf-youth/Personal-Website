@@ -1,0 +1,36 @@
+:root {
+  --color-light: #ffffff;
+  --color-light-alt: rgb(244, 243, 243);
+  --color-dark: #161513;
+  --color-dark-alt: #222222;
+  --color-gray: #c5c5c5;
+  --color-gray-alt: #8491a0;
+
+  --button-height: 64px;
+  --header-height: 82px;
+
+  --border: 2px solid var(--color-light);
+  --border-radius: 30px;
+
+  --font-family-base: "Inter", sans-serif;
+
+  --container-width: 1200px;
+  --container-padding-x: 20px;
+
+  --section-padding-x: 70px;
+
+  --shadow: rgba(235, 233, 233, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+  --translate: 0 -20px;
+
+  --transition-duration: 0.4s;
+
+  @include tablet {
+    --section-padding-x: 50px;
+  }
+
+  @include mobile {
+    --section-padding-x: 40px;
+  }
+}

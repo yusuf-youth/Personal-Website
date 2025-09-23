@@ -1,0 +1,75 @@
+.project-card {
+  position: relative;
+  max-width: 350px;
+  overflow: hidden;
+  color: var(--color-dark);
+  background-color: var(--color-light-alt);
+  border-radius: var(--border-radius);
+  transition-duration: var(--transition-duration);
+
+  @include tablet {
+    width: 300px;
+  }
+
+  @include hover {
+    box-shadow: var(--shadow);
+    translate: var(--translate);
+  }
+
+  &--live {
+    &::after {
+      @include square(21px);
+
+      content: "";
+      position: absolute;
+      top: 17px;
+      right: 17px;
+      background: url(/public/icons/eye.svg) no-repeat center/100%;
+      animation: fade 2.5s infinite ease-in;
+    }
+  }
+
+  &__image {
+    width: 330px;
+    height: 300px;
+    object-fit: cover;
+
+    @include tablet {
+      height: 250px;
+    }
+  }
+
+  &__body {
+    padding: 20px;
+
+    @include mobile {
+      padding: 15px;
+    }
+  }
+
+  &__label {
+    @include fluid-text(10, 9);
+
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    margin-bottom: 10px;
+    color: var(--color-dark);
+
+    @include mobile {
+      margin-bottom: 8px;
+    }
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

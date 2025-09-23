@@ -1,0 +1,44 @@
+.about-me {
+  display: grid;
+  grid-template-columns: 30% auto;
+  justify-items: center;
+  align-items: center;
+  column-gap: 30px;
+
+  @include desktop {
+    column-gap: 50px;
+    max-width: 900px;
+    margin-inline: auto;
+  }
+
+  @include mobile {
+    display: flex;
+    flex-direction: column;
+    column-gap: 0;
+    row-gap: 30px;
+  }
+
+  &__image-wrapper {
+    max-width: fit-content;
+    background: linear-gradient(90deg, #ff8660 0%, #8000ff 99%);
+    border-radius: 50%;
+  }
+
+  &__description {
+    @include fluid-text(21, 18);
+
+    max-width: 600px;
+    line-height: 1.3;
+    text-align: center;
+    color: var(--color-gray);
+
+    @include mobile {
+      text-align: center;
+      max-width: 500px;
+    }
+  }
+
+  &__highlighted {
+    color: var(--color-light);
+  }
+}

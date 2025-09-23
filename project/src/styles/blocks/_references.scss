@@ -1,0 +1,27 @@
+.references {
+  --referencesGap: 8px;
+
+  @include fluid-text(15, 13);
+
+  &__list {
+    display: flex;
+    align-items: center;
+    column-gap: var(--referencesGap);
+
+    @include desktop {
+      --referencesGap: 6px;
+    }
+  }
+
+  // &__item {
+  //   &::after {
+  //     content: "•";
+  //     margin-left: var(--referencesGap);
+  //     opacity: 0.4;
+  //   }
+
+  //   &:last-child::after {
+  //     content: "";
+  //   }
+  // }
+}

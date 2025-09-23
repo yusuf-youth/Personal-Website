@@ -1,0 +1,42 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+
+  @include desktop {
+    margin-inline: auto;
+  }
+
+  @include mobile {
+    row-gap: 10px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    @include desktop {
+      justify-content: center;
+    }
+
+    @include tablet {
+      gap: 30px;
+    }
+
+    @include mobile {
+      gap: 20px;
+    }
+  }
+
+  &__link {
+    @include fluid-text(16, 14);
+    @include hover-effect;
+
+    align-self: flex-end;
+
+    &::after {
+      @include square(14px);
+    }
+  }
+}

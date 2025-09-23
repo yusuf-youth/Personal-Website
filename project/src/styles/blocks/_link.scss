@@ -1,0 +1,19 @@
+.link {
+  @include hover-effect;
+  @include center-content(true);
+
+  column-gap: 3px;
+
+  &--invert {
+    &::after {
+      filter: invert(1);
+    }
+  }
+
+  &::after {
+    @include square(12px);
+
+    content: "";
+    background: url(/icons/arrow-right-top.svg) no-repeat center/100%;
+  }
+}

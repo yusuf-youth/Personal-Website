@@ -1,0 +1,18 @@
+.button {
+  @include hover-effect;
+
+  padding: 4px 8px;
+  font-size: 13px;
+  color: var(--color-dark);
+  background-color: var(--color-light);
+  border-radius: 20px;
+
+  &--dark {
+    color: var(--color-light);
+    background-color: var(--color-dark);
+  }
+
+  &--dark-bordered {
+    border: 1px solid var(--color-dark);
+  }
+}

@@ -1,0 +1,27 @@
+@import 
+    'normalize',
+    'fonts',
+    'mixins',
+    'media',
+    'variables',
+    'utils',
+    'globals';
+
+@import 
+    'blocks/section',
+    'blocks/socials',
+    'blocks/button',
+    'blocks/project-card',
+    'blocks/references',
+    'blocks/service-card',
+    'blocks/floating-nav',
+    'blocks/switch-button',
+    'blocks/tech-card',
+    'blocks/link';
+
+@import 
+    'sections/home',
+    'sections/about-me',
+    'sections/technologies',
+    'sections/projects',
+    'sections/services';
