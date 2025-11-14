@@ -205,10 +205,22 @@ export const TECHNOLOGIES = [
     modifierClass: "tech-card--js tech-card--no-invert",
   },
   {
+    label: "TS",
+    imageSrc: "/icons/technologies/ts.svg",
+    alt: "TypeScript",
+    modifierClass: "tech-card--ts tech-card--no-invert",
+  },
+  {
     label: "React",
     imageSrc: "/icons/technologies/react.svg",
     alt: "React",
     modifierClass: "tech-card--react tech-card--no-invert",
+  },
+  {
+    label: "React Router DOM",
+    imageSrc: "/icons/technologies/react-router-dom.svg",
+    alt: "React",
+    modifierClass: "tech-card--react-router-dom tech-card--no-invert",
   },
 ];
 
@@ -216,6 +228,9 @@ export const PROJECTS = [
   {
     imageSrc: "/images/resume.png",
     modifierClass: "project-card--live",
+  },
+  {
+    imageSrc: "/images/architect.png",
   },
   {
     imageSrc: "/images/tasks.png",

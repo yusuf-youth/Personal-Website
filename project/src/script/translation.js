@@ -27,7 +27,7 @@ export const translations = {
             linkLabel: "All Projects",
             data: [
                 {
-                    label: "website",
+                    label: "landing",
                     title: "Resume",
                     alt: "Personal website",
                     imgTitle: "You're viewing the project.",
@@ -35,6 +35,23 @@ export const translations = {
                         {
                             text: "GitHub Repo",
                             href: "#",
+                            type: "repo",
+                        },
+                    ],
+                },
+                {
+                    label: "SPA",
+                    title: "Architect",
+                    alt: "Single Page Application: Architect",
+                    links: [
+                        {
+                            text: "Live Demo",
+                            href: "https://yusuf-youth.github.io/Architect/",
+                            type: "live",
+                        },
+                        {
+                            text: "GitHub Repo",
+                            href: "https://github.com/yusuf-youth/Architect",
                             type: "repo",
                         },
                     ],
@@ -58,7 +75,7 @@ export const translations = {
                 },
                 {
                     title: "Magazine",
-                    label: "website",
+                    label: "landing",
                     alt: "Magazine website",
                     links: [
                         {
@@ -167,7 +184,7 @@ export const translations = {
             linkLabel: "Усі проекти",
             data: [
                 {
-                    label: "вебсайт",
+                    label: "лендінг",
                     title: "Резюме",
                     alt: "Персональний веб-сайт",
                     imgTitle: "Ви переглядаєте проєкт.",
@@ -175,6 +192,23 @@ export const translations = {
                         {
                             text: "Репозиторій GitHub",
                             href: "https://github.com/yusuf-youth/Tasks",
+                            type: "repo",
+                        },
+                    ],
+                },
+                {
+                    label: "SPA",
+                    title: "Архітектор",
+                    alt: "Односторінковий додаток «Архітектор»",
+                    links: [
+                        {
+                            text: "Жива демо",
+                            href: "https://yusuf-youth.github.io/Architect/",
+                            type: "live",
+                        },
+                        {
+                            text: "Репозиторій GitHub",
+                            href: "https://github.com/yusuf-youth/Architect",
                             type: "repo",
                         },
                     ],
@@ -197,7 +231,7 @@ export const translations = {
                     ],
                 },
                 {
-                    label: "вебсайт",
+                    label: "лендінг",
                     title: "Журнал",
                     alt: "Вебсайт журналу",
                     links: [
