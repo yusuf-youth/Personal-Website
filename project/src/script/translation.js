@@ -14,7 +14,7 @@ export const translations = {
             highlightedText:
                 "6 months of actively building responsive user interfaces and honing skills,",
             trailingText:
-                "using HTML, CSS (SCSS), JS, and React. I’m currently seeking an internship to apply my skills, contribute to meaningful projects, and grow into a junior developer role. I thrive in collaborative environments and enjoy solving challenging UI/UX problems.",
+                "using HTML, CSS (SCSS), JS (TS), and React. I’m currently seeking an internship to apply my skills, contribute to meaningful projects, and grow into a junior developer role. I thrive in collaborative environments and enjoy solving challenging UI/UX problems.",
         },
         technologies: {
             title: "Technologies",
@@ -28,13 +28,17 @@ export const translations = {
             data: [
                 {
                     label: "landing",
-                    title: "Resume",
-                    alt: "Personal website",
-                    imgTitle: "You're viewing the project.",
+                    title: "Mintlify",
+                    alt: "Landing Page: Mintlify",
                     links: [
                         {
+                            text: "Live Demo",
+                            href: "https://yusuf-youth.github.io/Mintlify/",
+                            type: "live",
+                        },
+                        {
                             text: "GitHub Repo",
-                            href: "#",
+                            href: "https://github.com/yusuf-youth/Mintlify",
                             type: "repo",
                         },
                     ],
@@ -107,43 +111,65 @@ export const translations = {
                         },
                     ],
                 },
+                {
+                    label: "app",
+                    title: "Focusify",
+                    alt: "Focusify app",
+                    links: [
+                        {
+                            text: "Live Demo",
+                            href: "https://yusuf-youth.github.io/Focusify/",
+                            type: "live",
+                        },
+                        {
+                            text: "GitHub Repo",
+                            href: "https://github.com/yusuf-youth/Focusify",
+                            type: "repo",
+                        },
+                    ],
+                },
             ],
         },
-        whatIOffer: {
+        services: {
             title: "What I Offer",
             description:
                 "I bring structure, speed, and reliability to every project I work on.",
             data: [
                 {
-                    title: "Responsive Design",
+                    title: "Semantic",
+                    highlightedText: "HTML",
                     description:
-                        "I build layouts that adapt seamlessly to different screen sizes, ensuring a consistent user experience across devices.",
+                        "I build semantic websites that are accessible to all users and follow web standards.",
                 },
                 {
-                    title: "Clean & Organized Code",
+                    title: "Modular",
+                    highlightedText: "SCSS",
                     description:
-                        "I write maintainable and well-structured code that’s easy to read, debug, and scale.",
+                        "I write clean, modular SCSS that adheres to the DRY principle by using mixins and variables for efficient, maintainable styling.",
                 },
                 {
-                    title: "Attention to Detail",
+                    title: "Robust",
+                    highlightedText: "JavaScript",
                     description:
-                        "I carefully review every element to ensure accuracy, consistency, and a polished final product.",
+                        "I write robust, modern JavaScript to enforce structure and ensure code maintainability across the application.",
                 },
                 {
-                    title: "User-Centered Thinking",
+                    title: "Efficient",
+                    highlightedText: "React",
                     description:
-                        "I design and develop with the user in mind, focusing on intuitive and enjoyable experiences.",
+                        "I build reusable, testable React components, separating concerns by encapsulating their logic and UI.",
                 },
                 {
-                    title: "Scalable Code",
+                    title: "Organized",
+                    highlightedText: "Structure",
                     description:
                         "I structure projects so they can grow and adapt without becoming messy or hard to maintain.",
                 },
-                {
-                    title: "Semantic HTML & Accessibility",
-                    description:
-                        "I build websites that are accessible to all users and follow web standards.",
-                },
+                // {
+                //     title: "Semantic HTML & Accessibility",
+                //     description:
+                //         "I build websites that are accessible to all users and follow web standards.",
+                // },
             ],
         },
         floatingNav: {
@@ -170,7 +196,7 @@ export const translations = {
             highlightedText:
                 "6-місячним досвідом активної розробки адаптивних користувацьких інтерфейсів та відточування навичок,",
             trailingText:
-                "використовуючи HTML, CSS (SCSS), JS і React. Наразі я шукаю стажування, щоб застосувати свої навички, зробити внесок у змістовні проекти та стати молодшим розробником. Я процвітаю в середовищі співпраці та отримую задоволення від вирішення складних проблем UI/UX.",
+                "використовуючи HTML, CSS (SCSS), JS (TS) і React. Наразі я шукаю стажування, щоб застосувати свої навички, зробити внесок у змістовні проекти та стати молодшим розробником. Я процвітаю в середовищі співпраці та отримую задоволення від вирішення складних проблем UI/UX.",
         },
         technologies: {
             title: "Технології",
@@ -185,13 +211,18 @@ export const translations = {
             data: [
                 {
                     label: "лендінг",
-                    title: "Резюме",
-                    alt: "Персональний веб-сайт",
+                    title: "Mintlify",
+                    alt: "Односторінковий додаток «Mintlify»",
                     imgTitle: "Ви переглядаєте проєкт.",
                     links: [
                         {
+                            text: "Жива демо",
+                            href: "https://yusuf-youth.github.io/Mintlify/",
+                            type: "live",
+                        },
+                        {
                             text: "Репозиторій GitHub",
-                            href: "https://github.com/yusuf-youth/Tasks",
+                            href: "https://github.com/yusuf-youth/Mintlify",
                             type: "repo",
                         },
                     ],
@@ -264,138 +295,74 @@ export const translations = {
                         },
                     ],
                 },
+                {
+                    label: "додаток",
+                    title: "Focusify",
+                    alt: "Focusify додаток",
+                    links: [
+                        {
+                            text: "Live Demo",
+                            href: "https://yusuf-youth.github.io/Focusify/",
+                            type: "live",
+                        },
+                        {
+                            text: "GitHub Repo",
+                            href: "https://github.com/yusuf-youth/Focusify",
+                            type: "repo",
+                        },
+                    ],
+                },
             ],
         },
-        whatIOffer: {
+        services: {
             title: "Що я пропоную",
             description:
                 "Я привношу структурованість, швидкість та надійність у кожен проєкт, над яким працюю.",
             data: [
                 {
-                    title: "Адаптивний дизайн",
+                    title: "Семантичний",
+                    highlightedText: "HTML",
                     description:
-                        "Я створюю макети, які легко адаптуються до екранів різних розмірів, забезпечуючи однаковий користувацький досвід на всіх пристроях.",
+                        "Я створюю семантичні вебсайти, доступні для всіх користувачів та дотримуюся вебстандартів.",
                 },
                 {
-                    title: "Чистий та організований код",
+                    title: "Модульна",
+                    highlightedText: "SCSS",
                     description:
-                        "Я пишу зручний у підтримці та добре структурований код, який легко читати, налагоджувати та масштабувати.",
+                        "Я пишу чистий, модульний SCSS, який дотримується принципу DRY, використовуючи міксини та змінні для ефективного та зручного стилізації.",
                 },
                 {
-                    title: "Увага до деталей",
+                    title: "Надійний",
+                    highlightedText: "JavaScript",
                     description:
-                        "Я ретельно перевіряю кожен елемент, щоб забезпечити точність, узгодженість та бездоганний кінцевий продукт.",
+                        "Я пишу надійний, сучасний JavaScript, щоб забезпечити структурованість коду та зручність його обслуговування в усьому застосунку.",
                 },
                 {
-                    title: "Мислення, орієнтоване на користувача",
+                    title: "Ефективний",
+                    highlightedText: "React",
                     description:
-                        "Я проєктую та розробляю з урахуванням потреб користувача, зосереджуючись на інтуїтивно зрозумілому та приємному досвіді.",
+                        "Я створюю багаторазові, тестовані React-компоненти, розділяючи проблеми шляхом інкапсуляції їхньої логіки та інтерфейсу користувача.",
                 },
                 {
-                    title: "Масштабований код",
+                    title: "Організована",
+                    highlightedText: "структура",
                     description:
                         "Я структурую проекти так, щоб вони могли розвиватися та адаптуватися, не стаючи безладними чи важкими для підтримки.",
                 },
-                {
-                    title: "Семантичний HTML та доступність",
-                    description:
-                        "Я створюю вебсайти, доступні для всіх користувачів, та дотримуюся вебстандартів.",
-                },
+                // {
+                //     title: "Семантичний HTML та доступність",
+                //     description:
+                //         "",
+                // },
             ],
         },
         floatingNav: {
             data: ['Головна', 'Про мене', 'Технології', 'Проєкти', 'Що я пропоную']
         },
         switchButton: {
-            accessibilityText: "Перейти на українську мову",
+            accessibilityText: "Українська мова ввімкнена",
             label: "УКР"
         }
     },
 };
 
-// translation.js
-
-// export const translations = {
-//   en: {
-//     nav: {
-//       home: "Home",
-//       aboutMe: "About Me",
-//       technologies: "Technologies",
-//       projects: "Projects",
-//       whatIOffer: "What I Offer",
-//     },
-//     services: {
-//       responsiveDesign: {
-//         title: "Responsive Design",
-//         description:
-//           "I build layouts that adapt seamlessly to different screen sizes, ensuring a consistent user experience across devices.",
-//       },
-//       cleanCode: {
-//         title: "Clean & Organized Code",
-//         description:
-//           "I write maintainable and well-structured code that’s easy to read, debug, and scale.",
-//       },
-//       attentionDetail: {
-//         title: "Attention to Detail",
-//         description:
-//           "I carefully review every element to ensure accuracy, consistency, and a polished final product.",
-//       },
-//       userCentered: {
-//         title: "User-Centered Thinking",
-//         description:
-//           "I design and develop with the user in mind, focusing on intuitive and enjoyable experiences.",
-//       },
-//       scalableCode: {
-//         title: "Scalable Code",
-//         description:
-//           "I structure projects so they can grow and adapt without becoming messy or hard to maintain.",
-//       },
-//       semanticAccessibility: {
-//         title: "Semantic HTML & Accessibility",
-//         description:
-//           "I build websites that are accessible to all users and follow web standards.",
-//       },
-//     },
-//   },
-//   ua: {
-//     nav: {
-//       home: "Головна",
-//       aboutMe: "Про мене",
-//       technologies: "Технології",
-//       projects: "Проєкти",
-//       whatIOffer: "Мої послуги",
-//     },
-//     services: {
-//       responsiveDesign: {
-//         title: "Адаптивний дизайн",
-//         description:
-//           "Я створюю макети, що бездоганно пристосовуються до різних розмірів екранів, забезпечуючи однаковий досвід на всіх пристроях.",
-//       },
-//       cleanCode: {
-//         title: "Чистий та організований код",
-//         description:
-//           "Я пишу підтримуваний та добре структурований код, який легко читати, налагоджувати та масштабувати.",
-//       },
-//       attentionDetail: {
-//         title: "Увага до деталей",
-//         description:
-//           "Я ретельно перевіряю кожен елемент, щоб забезпечити точність, узгодженість і відшліфований результат.",
-//       },
-//       userCentered: {
-//         title: "Орієнтація на користувача",
-//         description:
-//           "Я проектую та розробляю з урахуванням потреб користувача, створюючи інтуїтивний і приємний досвід.",
-//       },
-//       scalableCode: {
-//         title: "Масштабований код",
-//         description:
-//           "Я структурую проєкти так, щоб вони могли рости й адаптуватися, не стаючи заплутаними чи важкими для підтримки.",
-//       },
-//       semanticAccessibility: {
-//         title: "Семантичний HTML та доступність",
-//         description:
-//           "Я створюю вебсайти, доступні для всіх користувачів і такі, що відповідають вебстандартам.",
-//       },
-//     },
-//   },
-// };

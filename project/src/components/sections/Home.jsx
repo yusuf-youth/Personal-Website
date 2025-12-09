@@ -1,4 +1,3 @@
-import React from "react";
 import SwitchButton from "../blocks/SwitchButton";
 import Socials from "../blocks/Socials";
 import { SOCIALS } from "../../script/constants";
@@ -22,6 +21,7 @@ function Home() {
               alt="A profile photo"
               width="200"
               height="200"
+              loading="lazy"
             />
           </div>
           <div className="home__content">

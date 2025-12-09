@@ -10,6 +10,7 @@ const TechCard = ({ imageSrc, alt, label, modifierClass = "" }) => {
           alt={alt}
           width={125}
           height={125}
+          loading="lazy"
         />
       </div>
       <span className="tech-card__label">{label}</span>

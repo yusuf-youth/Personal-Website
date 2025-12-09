@@ -4,8 +4,71 @@
   row-gap: 15px;
 
   &__image {
+    height: 270px;
+    border-radius: var(--border-radius);
+    // object-fit: cover;
+
     @include tablet {
+      max-width: 400px;
+      width: 100%;
       margin-bottom: 8px;
+    }
+  }
+
+  &__highlighted-text {
+    &.is-html {
+      // color: #F28F1B;
+      background: linear-gradient(90deg, #f28f1b 0%, #da8b66 100%);
+
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    &.is-scss {
+      // color: #a858f3;
+
+      background: linear-gradient(90deg, #a858f3 0%, #c0b7b7 100%);
+
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    &.is-js {
+      // color: #ff6000;
+
+      background: linear-gradient(90deg, #ff6000 0%, #b16464 100%);
+
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    &.is-react {
+      // color: #6685f4;
+
+      background: linear-gradient(90deg, #6685f4 0%, #bec9f7 100%);
+
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    &.is-structure {
+      // color: #5aa54d;
+
+      background: linear-gradient(90deg, #5aa54d 0%, #b0f8ce 100%);
+
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+  }
+
+  &__description {
+    @include tablet {
+      max-width: 400px;
     }
   }
 

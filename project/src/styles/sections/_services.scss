@@ -15,4 +15,11 @@
       margin-inline: auto;
     }
   }
+
+  &__item {
+    @include tablet {
+      display: flex;
+      justify-content: center;
+    }
+  }
 }

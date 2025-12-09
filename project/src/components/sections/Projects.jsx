@@ -1,4 +1,3 @@
-import React from "react";
 import ProjectCard from "../blocks/ProjectCard";
 import { PROJECTS } from "../../script/constants";
 import { useLanguage } from "../../context/LanguageContext";
@@ -19,11 +18,7 @@ function Projects() {
           <ul className="projects__list">
             {text.data.map((item, index) => (
               <li key={index} className="projects__item">
-                <ProjectCard
-                  {...item}
-                  modifierClass={PROJECTS[index]?.modifierClass}
-                  imageSrc={PROJECTS[index].imageSrc}
-                />
+                <ProjectCard {...item} videoSrc={PROJECTS[index]?.videoSrc} />
               </li>
             ))}
           </ul>

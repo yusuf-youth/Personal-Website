@@ -1,4 +1,3 @@
-import React from "react";
 import TechCard from "../blocks/TechCard";
 import { TECHNOLOGIES } from "../../script/constants";
 import { useLanguage } from "../../context/LanguageContext";

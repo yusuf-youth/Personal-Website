@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import Icon from "./Icon";
+import { useState, useEffect } from "react";
 import { FLOATING_NAV_ITEMS } from "../../script/constants";
 import { useLanguage } from "../../context/LanguageContext";
 import { translations } from "../../script/translation";
@@ -63,7 +62,7 @@ const FloatingNav = () => {
               title={text.data[index]}
             >
               <span className="visually-hidden">{text.data[index]}</span>
-              <Icon path={item.svgPath} />
+              {index === activeIndex ? item.activeIcon : item.icon}
             </a>
           </li>
         ))}

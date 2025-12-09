@@ -1,4 +1,6 @@
 .project-card {
+  --translate: 0 -3px;
+
   position: relative;
   max-width: 350px;
   overflow: hidden;
@@ -29,13 +31,18 @@
     }
   }
 
-  &__image {
+  &__video {
     width: 330px;
     height: 300px;
     object-fit: cover;
+    transition-duration: var(--transition-duration);
 
     @include tablet {
       height: 250px;
+    }
+
+    &.is-hovered {
+      box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
     }
   }
 
@@ -50,6 +57,8 @@
   &__label {
     @include fluid-text(10, 9);
 
+    display: inline-block;
+    // margin-bottom: 3px;
     font-weight: 600;
     text-transform: uppercase;
   }
@@ -60,6 +69,15 @@
 
     @include mobile {
       margin-bottom: 8px;
+    }
+  }
+
+  .references__link {
+    transition-duration: 0.5s;
+
+    @include hover {
+      opacity: 1;
+      transform: translateY(-0.8px);
     }
   }
 }

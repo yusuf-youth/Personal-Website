@@ -1,4 +1,3 @@
-import React from "react";
 import { useLanguage } from "../../context/LanguageContext";
 import { translations } from "../../script/translation";
 
@@ -21,6 +20,7 @@ function AboutMe() {
               alt="Person with a laptop"
               width="250"
               height="250"
+              loading="lazy"
             />
           </div>
           <div className="about-me__content">
