@@ -23,6 +23,7 @@ function Technologies() {
                   alt={tech.alt}
                   label={tech.label}
                   modifierClass={tech.modifierClass}
+                  delay={tech.delay}
                 />
               </li>
             ))}

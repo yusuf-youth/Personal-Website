@@ -18,7 +18,12 @@ function Projects() {
           <ul className="projects__list">
             {text.data.map((item, index) => (
               <li key={index} className="projects__item">
-                <ProjectCard {...item} videoSrc={PROJECTS[index]?.videoSrc} />
+                <ProjectCard
+                  {...item}
+                  videoSrc={PROJECTS[index].videoSrc}
+                  poster={PROJECTS[index].poster}
+                  delay={PROJECTS[index].delay}
+                />
               </li>
             ))}
           </ul>

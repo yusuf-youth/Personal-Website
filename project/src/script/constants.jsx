@@ -185,63 +185,82 @@ export const TECHNOLOGIES = [
     imageSrc: "/icons/technologies/html.svg",
     alt: "HTML",
     modifierClass: "tech-card--html",
+    delay: 500,
   },
   {
     label: "CSS",
     imageSrc: "/icons/technologies/css.svg",
     alt: "CSS",
     modifierClass: "tech-card--css",
+    delay: 750,
   },
   {
     label: "SCSS",
     imageSrc: "/icons/technologies/scss.svg",
     alt: "SCSS",
     modifierClass: "tech-card--scss",
+    delay: 950,
   },
   {
     label: "JS",
     imageSrc: "/icons/technologies/js.svg",
     alt: "JavaScript",
     modifierClass: "tech-card--js tech-card--no-invert",
+    delay: 1150,
   },
   {
     label: "TS",
     imageSrc: "/icons/technologies/ts.svg",
     alt: "TypeScript",
     modifierClass: "tech-card--ts tech-card--no-invert",
+    delay: 1350,
   },
   {
     label: "React",
     imageSrc: "/icons/technologies/react.svg",
     alt: "React",
     modifierClass: "tech-card--react tech-card--no-invert",
+    delay: 1550,
   },
   {
     label: "React Router DOM",
     imageSrc: "/icons/technologies/dom.svg",
     alt: "React",
     modifierClass: "tech-card--react-router-dom tech-card--no-invert",
+    delay: 1050,
   },
 ];
 
 export const PROJECTS = [
   {
     videoSrc: "/videos/mintlify.mp4",
+    poster: "/images/mintlify.png",
+    delay: 400,
   },
   {
     videoSrc: "/videos/architect.mp4",
+    poster: "/images/architect.png",
+    delay: 550,
   },
   {
     videoSrc: "/videos/tasks.mp4",
+    poster: "/images/tasks.png",
+    delay: 750,
   },
   {
     videoSrc: "/videos/magazine.mp4",
+    poster: "/images/magazine.png",
+    delay: 400,
   },
   {
     videoSrc: "/videos/counter-pro.mp4",
+    poster: "/images/counter-pro.png",
+    delay: 550,
   },
   {
     videoSrc: "/videos/focusify.mp4",
+    poster: "/images/focusify.png",
+    delay: 750,
   },
 ];
 

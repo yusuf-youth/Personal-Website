@@ -1,8 +1,12 @@
 import React from "react";
 
-const TechCard = ({ imageSrc, alt, label, modifierClass = "" }) => {
+const TechCard = ({ imageSrc, alt, label, modifierClass = "", delay }) => {
   return (
-    <article className={`technologies__card tech-card ${modifierClass}`}>
+    <article
+      className={`technologies__card tech-card ${modifierClass}`}
+      data-aos="fade-right"
+      data-aos-delay={delay}
+    >
       <div className="tech-card__image-wrapper">
         <img
           className="tech-card__image"
