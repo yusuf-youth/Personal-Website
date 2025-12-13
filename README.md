@@ -16,7 +16,7 @@ The project has several features that are worth paying attention to.
     <b>Context. </b> The app uses context called <code>LanguageContext</code> that manages and persists the application's language state (English or Ukrainian) using the localStorage API.
   </li>
   <li>
-    <b>Custom Hook. </b> The website implements <code>useLanguage</code> custom hook to abstract the logic for accessing the current language state and the function to toggle it, simplifying localization management across all components.
+    <b>Custom Hook. </b> The website implements <code>useLanguage</code> to abstract the logic for accessing the current language state, <code>useAOS</code> to initialize animation library once globally on component mount, and <code>useActiveSection</code> to track visible page section via Intersection Observer and updates index.
   </li>
 </ul>
 
