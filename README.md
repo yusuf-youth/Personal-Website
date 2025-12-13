@@ -1,4 +1,4 @@
-<img src="images/cover.png" width="600" />
+<img src="assets/cover.png" width="600" />
 
 This repository contains the source code for my personal website and digital résumé, built to showcase my education, skills, projects, and professional experience. The <a target="_blank" href="https://yusuf-youth.github.io/Resume/">site</a> is designed to be clean, responsive, and easy to navigate, providing recruiters and collaborators with a quick overview of my background. It serves as both a résumé and portfolio, highlighting my technical expertise and career journey.
 
@@ -16,7 +16,7 @@ The project has several features that are worth paying attention to.
     <b>Context. </b> The app uses context called <code>LanguageContext</code> that manages and persists the application's language state (English or Ukrainian) using the localStorage API.
   </li>
   <li>
-    <b>Custom Hook. </b> The website implements <code>useLanguage</code> custom hook to abstract the logic for accessing the current language state and the function to toggle it, simplifying localization management across all components.
+    <b>Custom Hook. </b> The website implements <code>useLanguage</code> to abstract the logic for accessing the current language state, <code>useAOS</code> to initialize animation library once globally on component mount, and <code>useActiveSection</code> to track visible page section via Intersection Observer and updates index.
   </li>
 </ul>
 
